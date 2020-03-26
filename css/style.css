@@ -1,0 +1,188 @@
+body {
+	color : #212121;
+}
+#profile {
+	max-width : 60%;
+	border-radius : 50%;
+	border : 1px solid #F57F17;
+	display : block;
+	margin : 40px auto;
+}
+
+.contact {
+	background-color: #F9A825;
+	padding : 0;
+}
+
+.contact .heading {
+	font-family: 'Roboto', sans-serif;
+	background-color: #616161;
+	color : #F9A825;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight : 800;
+}
+
+.contact p {
+	padding : 5px 5px 5px 15px ;
+}
+
+.contact .leisure {
+	padding-top : 10px;
+	margin : 0 auto 10px;
+	display : flex;
+	justify-content: space-evenly;
+}
+
+.contact .leisure span {
+	font-size : 2em;
+    color : #212121;
+    padding : 10px;
+    border : 1px solid;
+    border-radius : 50%;
+}
+
+.resume {
+	background-color : aliceblue;
+	padding : 10px 40px 10px 30px;
+}
+
+.resume .title {
+	min-height : 250px;
+    padding : 45px 0;
+}
+
+.resume .title h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size : 2.5em;
+	text-transform : uppercase;
+	font-weight : 800;
+}
+
+.title-color {
+	color : #F9A825;
+}
+
+.resume .title h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size : 1.2em;
+}
+
+.resume h2:after{
+    content:'';
+    display:block;
+    border:1px solid #F9A825;
+    width : 15%
+}
+
+.resume .heading {
+	display : flex;
+	border-bottom : 1px solid #F9A825;
+	margin: 20px 0;
+}
+.heading span {
+	font-size : 1.5em;
+	color : #F9A825;
+}
+
+.resume h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight : 800;
+	text-transform : uppercase;
+	display : inline-block;
+	padding-left : 20px;
+	font-size : 1.3em;
+}
+
+.job {
+	display : flex;
+}
+
+.resume .info {
+	min-width : 35%;
+	font-weight : 500;
+}
+
+.date::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    font-size : 0.6em;
+	padding-right: 3px;
+    margin : auto 0;
+    color : #F9A825;
+}
+
+.actual .date::before {
+    content: "\f192";
+}
+
+.resume h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size : 1.1em;
+	text-transform : uppercase
+}
+
+.resume h5 {
+	font-size : 1em;
+}
+
+a {
+	color : unset;
+}
+
+a:hover {
+	text-decoration : unset;
+	font-weight : bold;
+	color : unset;
+}
+
+.reference {
+	display : flex;
+	justify-content : space-evenly;
+}
+
+.reference-contact {
+	min-width : 50%
+}
+
+.phone {
+	font-weight : 500;
+}
+
+@media (max-width: 481px) {
+	
+	.info {
+		text-align : center;
+	}
+
+	.resume {
+		padding-right : 30px;
+	}
+
+	.job {
+		display : flex;
+	    flex-direction : column;
+	}
+
+	.job .info {
+		display : flex;	
+		justify-content : flex-end;
+		margin-bottom : 8px;	
+   	}
+
+   	.date {
+   		display : flex;
+   		flex-direction : row;
+   		margin-right : 20px;
+   	}
+
+   	.reference {
+   		display : flex;
+   		flex-direction : column;
+   	}
+
+   	.reference-contact {
+   		margin : 10px 0;
+   	}
+
+}  

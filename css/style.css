@@ -149,6 +149,9 @@ a:hover {
 	font-weight : 500;
 }
 
+ul {
+	margin-top : -0.8rem;
+}
 @media (max-width: 481px) {
 	
 	.info {
